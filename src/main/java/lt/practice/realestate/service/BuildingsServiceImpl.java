@@ -46,6 +46,7 @@ public class BuildingsServiceImpl implements BuildingsService {
 		updatedBuilding.setSize(building.getSize());
 		updatedBuilding.setPropertyType(building.getPropertyType());
 		buildingsRepository.save(updatedBuilding);
+	
 	}
 
 	@Override
