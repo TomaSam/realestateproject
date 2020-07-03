@@ -97,7 +97,7 @@ public class ValidationTest {
 
 
 	   @Test
-	   public void carIsValid() {
+	   public void buildingIsValid() {
 	      Building test = new Building( "Jogailos g. 50, Kaunas", "Jonas Jonaitis", 50.00, 50000.00, PropertyType.HOUSE );
 
 	      Set<ConstraintViolation<Building>> constraintViolations =
